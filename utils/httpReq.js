@@ -21,7 +21,7 @@ const getWeatherData = async (type, data) => {
       }
       break;
     default:
-      url = `${BASE_URL}/weather?q=sanandaj&appid=${API_KEY}&units=metric`;
+      url = `${BASE_URL}/weather?q=sanandaj&APPID=${API_KEY}&units=metric`;
       break;
   }
 
